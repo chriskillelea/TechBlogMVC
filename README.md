@@ -1,1 +1,1 @@
-# TechBlogMVC
+Welcome to our Tech BLog!
