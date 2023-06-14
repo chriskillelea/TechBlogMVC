@@ -1,4 +1,4 @@
-const { User, Blog, Comment } = require('./index');
+const { User, Blog, Comment } = require('/index');
 
 User.hasMany(Blog, {
   foreignKey: 'user_id',
