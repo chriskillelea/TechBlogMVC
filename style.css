@@ -1,15 +1,14 @@
-body {
-    background-color: rgb(105, 122, 74);
-  }
-  
-  .navTitle {
+.navTitle {
     font-weight: 900;
     font-size: xx-large;
   }
   
-  .blogBox {
-    margin-top: 8px;
-    border-style: solid;
+  .commentCont {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    max-width: 75%;
+    background-color: rgb(113, 143, 62);
   }
   
   .blogTitle {
@@ -17,20 +16,21 @@ body {
     color: darkkhaki;
   }
   
-  .blogDesc {
+  .commentOwner {
+    font-size: 14px;
+  }
+  
+  .formCont {
+    margin-top: 10px;
+    max-width: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .blogBoxCont {
+    margin-top: 10px;
     border-style: solid;
-    margin-bottom: 5px;
-    padding: 2px;
     background-color: rgb(113, 143, 62);
-  }
-  
-  .blogDescMain {
-    font-weight: 700;
-  }
-  
-  .blogDescTwo {
-    font-size: 25px;
-    font-style: italic;
   }
   
   .blogCreate {
@@ -41,10 +41,94 @@ body {
     color: darkkhaki;
   }
   
-  .blogBoxCont {
-    margin-top: 10px;
-    border-style: solid;
+  .commentText {
+    font-weight: bold;
+    padding-top: 10px;
     background-color: rgb(113, 143, 62);
+  }
+  
+  .blogBox {
+    margin-top: 8px;
+    border-style: solid;
+  }
+  
+  .commentCont {
+    border-style: dashed;
+  }
+  
+  .blogDesc {
+    border-style: solid;
+    margin-bottom: 5px;
+    padding: 2px;
+    background-color: rgb(113, 143, 62);
+  }
+  
+  .btnComment {
+    margin-top: 10px;
+  }
+  
+  .headerRow {
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  
+  .blogDescTwo {
+    font-size: 25px;
+    font-style: italic;
+  }
+  
+  .login {
+    margin-left: 5%;
+  }
+  
+  .signup {
+    margin-left: 5%;
+  }
+  
+  .form-group {
+    margin-top: 10px;
+  }
+  
+  body {
+    background-color: rgb(105, 122, 74);
+  }
+  
+  .a:link {
+    color: rgb(29, 200, 23);
+  }
+  
+  .blogDescMain {
+    font-weight: 700;
+  }
+  
+  .commentCont {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    max-width: 75%;
+    background-color: rgb(113, 143, 62);
+  }
+  
+  .blogDesc {
+    border-style: solid;
+    margin-bottom: 5px;
+    padding: 2px;
+    background-color: rgb(113, 143, 62);
+  }
+  
+  .signup {
+    margin-left: 5%;
+  }
+  
+  .commentText {
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: rgb(113, 143, 62);
+  }
+  
+  .blogDescTwo {
+    font-size: 25px;
+    font-style: italic;
   }
   
   .formCont {
@@ -54,11 +138,9 @@ body {
     margin-right: 5%;
   }
   
-  .commentCont {
-    margin-left: 5%;
-    margin-right: 5%;
+  .blogBoxCont {
     margin-top: 10px;
-    max-width: 75%;
+    border-style: solid;
     background-color: rgb(113, 143, 62);
   }
   
@@ -70,14 +152,17 @@ body {
     margin-top: 10px;
   }
   
-  .commentText {
-    font-weight: bold;
-    padding-top: 10px;
-    background-color: rgb(113, 143, 62);
-  }
-  
   .commentCont {
     border-style: dashed;
+  }
+  
+  .blogTitle {
+    text-decoration: none;
+    color: darkkhaki;
+  }
+  
+  .commentOwner {
+    font-size: 14px;
   }
   
   .headerRow {

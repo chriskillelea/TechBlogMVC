@@ -18,7 +18,7 @@ const loginFormHandler = async (event) => {
           throw new Error(response.statusText);
         }
       } catch (error) {
-        alert('An error occurred! Try again.');
+        alert('Error! Try again.');
       }
     }
   };
